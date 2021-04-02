@@ -7,7 +7,7 @@
 ## Steps
 1. Install
 ```sh
-$ git clone git@github.com:ryuji0123/cv_dnn.git
+$ git clone git@github.com:ryuji0123/visualize_dnn_feature_space.git
 ```
 
 2. Environment Setup
@@ -15,7 +15,7 @@ $ git clone git@github.com:ryuji0123/cv_dnn.git
 The names of the docker image and container are specified by constants described in docker/env.sh.
 These constants can be edited to suit your project.
 ```sh
-$ cd cv_dnn
+$ cd visualize_dnn_feature_space
 $ sh docker/build.sh
 $ sh docker/run.sh
 $ sh docker/exec.sh
